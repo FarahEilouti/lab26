@@ -5,6 +5,17 @@
 #### Author: *****Farah Ailouti*****
 
 #
+#### How to use your library (where applicable)
+
+* docker-compose up
+
+ * docker-compose run web python manage.py createsuperuser
+ * docker-compose run web python manage.py migrate
+* docker-compose run web python manage.py makemigrations
+ * pip install djangorestframework
+# 
+
+
 ### Links and Resources:
 
 - Link01:
